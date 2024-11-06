@@ -1,0 +1,77 @@
+body {
+color:azure;
+background:rgb(36, 2, 2);
+margin: 0px;
+font-family: "Chakra Petch", sans-serif;
+margin-bottom: 100px; /*espaçamento de 100 px no final da página*/
+}
+
+header {
+    border: solid 10px rgb(3, 3, 3); 
+    padding: 20px;
+    font-size: 40px;
+    color:rgb(185,149,149);
+}
+
+.chamada {
+    background: rgb(203, 209, 22);
+    padding-bottom: 20px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    }
+
+div{
+    margin-right: 20px;
+    
+}
+
+.chamada-texto{
+    margin-right: 100px;
+    margin-left: 0px;
+}
+
+.video{
+   
+}
+
+h1{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto; /*limitar a categoria na horizontal*/
+    gap: 10px; /*vão entre os vídeos*/
+}
+
+.categoria-nacional{
+    padding-left: 20px; /* espaço lateral esquerdo da cateria de vídeos*/
+    padding-right: 20px; /* espaço lateral direito da cateria de vídeos*/
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0; /* quando passa o mouse a imagem fica sem opacidade*/
+    border: 5px solid green; /* quando passa o mouse, cria uma borda*/
+}
+
+.categoria-nacional h2{
+    color:rgb(185,149,149);
+}
+
+.categoria-internacional{
+    margin-top: 50px;
+}
+
+.categoria-internacional h2{
+    color:rgb(185,149,149);
